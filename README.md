@@ -26,5 +26,5 @@ The project includes a simple web application with:
 
 ## Tools and Technologies Used
 - **HTML**: For structuring the web pages.
-- **CSS**: (Optional if you used external styles) For styling the pages.
+- **CSS**: (Inline) For styling the pages.
 
