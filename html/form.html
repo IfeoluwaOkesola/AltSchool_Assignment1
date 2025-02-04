@@ -1,129 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AltSchool | Sign up</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        main {
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        p {
-            font-size: 1rem;
-            margin: 10px 0;
-        }
-        label {
-            font-weight: bold;
-        }
-        input, select {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #3498db;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            text-align: center;
-        }
-        .button:hover {
-            background-color: #2874a6;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      main {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+      }
+      p {
+        font-size: 1rem;
+        margin: 10px 0;
+      }
+      label {
+        font-weight: bold;
+      }
+      input,
+      select {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+      }
+      .button:hover {
+        background-color: #2874a6;
+      }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <header>
-            <h1>Signup</h1>
-            <p style="text-align: center; color: gray;">Take the next steps to apply at AltSchool Africa</p>
-        </header>
+      <header>
+        <h1>Signup</h1>
+        <p style="text-align: center; color: gray">
+          Take the next steps to apply at AltSchool Africa
+        </p>
+      </header>
 
-        <form>
-            <p>
-                <label for="first-name">First Name</label>
-                <input id="first-name" type="text" placeholder="First Name">
-            </p>
-            <p>
-                <label for="last-name">Last Name</label>
-                <input id="last-name" type="text" placeholder="Last Name">
-            </p>
-            <p>
-                <label for="email">Email</label>
-                <input id="email" type="email" placeholder="Email">
-            </p>
-            <p>
-                <label for="gender">Gender</label>
-                <select id="gender" name="gender">
-                    <option value="" disabled selected>Select gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </p>
-            <p>
-                <label for="date">Date of Birth</label>
-                <input id="date" type="date" placeholder="dd/mm/yyyy">
-            </p>
-            <p>
-                <label for="country">Country of Residence</label>
-                <input id="country" type="text" placeholder="Country of Residence">
-            </p>
-            <p>
-                <label for="state">State of Residence</label>
-                <input id="state" type="text" placeholder="State of Residence">
-            </p>
-            <p>
-                <label for="password">Password</label>
-                <input id="password" type="password" placeholder="Password">
-            </p>
-            <p>
-                <label for="confirm-password">Confirm Password</label>
-                <input id="confirm-password" type="password" placeholder="Confirm Password" required>
-            </p>
-            <p>
-                <label for="referral">How did you hear about us?</label>
-                <input id="referral" type="text" placeholder="Optional: Let us know how you found us">
-            </p>
-            <p style="font-size: 0.9rem; color: gray;">
-                By clicking continue, I agree to the <a href="#" style="color: #3498db;">Terms of Use</a> and acknowledge that I have read the <a href="#" style="color: #3498db;">Privacy Policy</a>.
-            </p>
-            <p>
-                <a href="#" class="button">Continue</a>
-            </p>
-        </form>
+      <form>
+        <p>
+          <label for="first-name">First Name</label>
+          <input id="first-name" type="text" placeholder="First Name" />
+        </p>
+        <p>
+          <label for="last-name">Last Name</label>
+          <input id="last-name" type="text" placeholder="Last Name" />
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Email" />
+        </p>
+        <p>
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <option value="" disabled selected>Select gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </p>
+        <p>
+          <label for="date">Date of Birth</label>
+          <input id="date" type="date" placeholder="dd/mm/yyyy" />
+        </p>
+        <p>
+          <label for="country">Country of Residence</label>
+          <input id="country" type="text" placeholder="Country of Residence" />
+        </p>
+        <p>
+          <label for="state">State of Residence</label>
+          <input id="state" type="text" placeholder="State of Residence" />
+        </p>
+        <p>
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="Password" />
+        </p>
+        <p>
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            id="confirm-password"
+            type="password"
+            placeholder="Confirm Password"
+            required
+          />
+        </p>
+        <p>
+          <label for="referral">How did you hear about us?</label>
+          <input
+            id="referral"
+            type="text"
+            placeholder="Optional: Let us know how you found us"
+          />
+        </p>
+        <p style="font-size: 0.9rem; color: gray">
+          By clicking continue, I agree to the
+          <a href="#" style="color: #3498db">Terms of Use</a> and acknowledge
+          that I have read the
+          <a href="#" style="color: #3498db">Privacy Policy</a>.
+        </p>
+        <p>
+          <a href="#" class="button">Continue</a>
+        </p>
+      </form>
 
-        <footer>
-            <p>
-                Already an AltScholar? <a href="./index.html" style="color: #3498db;">Sign In!</a>
-            </p>
-            <p>
-                <a href="../index.html" style="color: #3498db;">Back to Biography</a>
-            </p>
-        </footer>
+      <footer
+        style="
+          text-align: center;
+          padding: 20px;
+          background-color: #f1f1f1;
+          margin-top: 40px;
+          border-top: 1px solid #ccc;
+        "
+      >
+        <p style="margin: 10px 0; font-size: 1.1em">
+          Already an AltScholar?
+          <a
+            href="/html/table.html"
+            style="color: #3498db; text-decoration: none"
+            >Sign in</a>
+        </p>
+        <p style="margin: 10px 0; font-size: 1.1em">
+          Discover amazing opportunities with
+          <a
+            href="/html/table.html"
+            style="color: #3498db; text-decoration: none"
+            >AltSchool Courses</a
+          >.
+        </p>
+        <p style="margin: 10px 0; font-size: 1.1em">
+          Want to know more about my journey?
+          <a href="./media.html" style="color: #3498db; text-decoration: none"
+            >Learn More About Me</a
+          >.
+        </p>
+        <p style="margin: 10px 0; font-size: 1.1em">
+          Return to my
+          <a href="../index.html" style="color: #3498db; text-decoration: none"
+            >Biography</a
+          >.
+        </p>
+        <small style="display: block; margin-top: 20px; color: #7f8c8d">
+          © 2025 My Personal Message. All rights reserved.
+        </small>
+      </footer>
     </main>
-</body>
+  </body>
 </html>

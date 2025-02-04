@@ -1,91 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Message - Media Elements</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        main {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        .intro {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .intro p {
-            font-size: 1.2em;
-            color: #333;
-        }
-        picture {
-            display: block;
-            margin: 0 auto;
-        }
-        img {
-            width: 100%;
-            max-width: 500px;
-            height: auto;
-            border-radius: 8px;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+      main {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+      }
+      .intro {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .intro p {
+        font-size: 1.2em;
+        color: #333;
+      }
+      picture {
+        display: block;
+        margin: 0 auto;
+      }
+      img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        border-radius: 8px;
+      }
+      .button-link {
+        display: inline-block;
+        margin: 10px 5px;
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #3498db;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 1em;
+      }
+      .button-link:hover {
+        background-color: #2980b9;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <h1>My Personal Message</h1>
-        <section class="intro">
-            <p>Welcome! I am a passionate individual who believes in continuous learning and personal growth.</p>
-        </section>
+      <h1>My Personal Message</h1>
 
-        <section class="media">
-            <h2>Image of Me (Responsive)</h2>
-            <picture>
-                <source srcset="../media/Ife.jpg" media="(max-width: 600px)">
-                <source srcset="../media/Ife.jpg" media="(max-width: 1024px)">
-                <source srcset="../media/Ife.jpg" media="(min-width: 1025px)">
-                <img src="../media/Ife.jpg"alt="A picture of me">
-            </picture>
-            <p>This image adapts based on the screen size</p>
-        </section>
-
-        <section class="media">
-            <h2>Image of Female Entrepreneur (Rendered from Internet)</h2>
-            <picture>
-                <source srcset="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" media="(max-width: 600px)">
-                <source srcset="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800" media="(max-width: 1024px)">
-                <source srcset="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200" media="(min-width: 1025px)">
-                <img src="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800" alt="Female entrepreneur working on laptop">
-            </picture>
-            <p>This image is being rendered directly from internet, showcasing a female entrepreneur working on a laptop in monochrome.</p>
-        </section>
-        
-        <section>
-            <h2>Video Message</h2>
-            <video width="50%" controls>
-                <source src="/media/Women Techsters Entry Video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>Here's a video message that gives you a glimpse into my journey and vision! My entry video submission in the year 2022 for the women techsters fellowship. Gaining admission into the women techsters fellowship marked a turnaround in what is now a budding career for me in software development</p>
-        </section>
-        
-
+      <section class="intro">
         <p>
-            <a href="../index.html" style="color: #3498db;">Back to Biography</a>
+          Hi there! I’m thrilled to have you here. As a lifelong learner and
+          tech enthusiast, I’m passionate about building solutions, empowering
+          others, and embracing personal growth through new opportunities.
         </p>
+      </section>
+
+      <section class="media">
+        <h2>Image of Me (Responsive)</h2>
+        <picture>
+          <source srcset="../media/Ife.jpg" media="(max-width: 600px)" />
+          <source srcset="../media/Ife.jpg" media="(max-width: 1024px)" />
+          <source srcset="../media/Ife.jpg" media="(min-width: 1025px)" />
+          <img src="../media/Ife.jpg" alt="A picture of me" />
+        </picture>
+        <p>
+          Here’s a responsive image of me—a reminder that adaptability and
+          growth are essential as I navigate the challenges and opportunities
+          in life and technology.
+        </p>
+      </section>
+
+      <section class="media">
+        <h2>Image of Female Entrepreneur (Rendered from Internet)</h2>
+        <picture>
+          <source
+            srcset="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            media="(max-width: 600px)"
+          />
+          <source
+            srcset="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800"
+            media="(max-width: 1024px)"
+          />
+          <source
+            srcset="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200"
+            media="(min-width: 1025px)"
+          />
+          <img
+            src="https://images.pexels.com/photos/30461710/pexels-photo-30461710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=800"
+            alt="Female entrepreneur working on laptop"
+          />
+        </picture>
+        <p>
+          This inspiring monochrome image of a female entrepreneur reminds me
+          of the resilience and creativity required to excel in the tech
+          industry. It’s a vision of empowerment and focus that drives me every
+          day.
+        </p>
+      </section>
+
+      <section>
+        <h2>Video Message</h2>
+        <video width="50%" controls>
+          <source
+            src="/media/Women Techsters Entry Video.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <p>
+          Watch this short video to catch a glimpse of my journey into tech!
+          This was my entry for the 2022 Women Techsters Fellowship—a pivotal
+          moment that sparked my career in software development and set me on
+          an exciting journey in tech!
+        </p>
+      </section>
+
+      <section>
+        <div class="section-header">
+         <h2>Pursue a Career in Technology</h2> 
+        </div>
+        <p>
+          Ready to unlock your potential in tech? Explore AltSchool’s dynamic
+          courses or take the first step by filling out the form below. The
+          future is yours to create!
+        </p>
+        <a href="/html/form.html" class="button-link">Go to Form</a>
+        <a href="/html/table.html" class="button-link">AltSchool Courses</a>
+      </section>
+
+      <p>
+        <a href="../index.html" style="color: #3498db">Back to Biography</a>
+      </p>
     </main>
-</body>
+  </body>
 </html>
